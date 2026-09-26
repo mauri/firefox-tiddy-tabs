@@ -1,0 +1,61 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Tidy",
+  "version": "1.0.0",
+  "description": "Sort tabs by site, keep playing tabs at the top, and jump back to the previous tab.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-tidy@local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "48": "icons/icon-dark.svg",
+    "96": "icons/icon-dark.svg"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Sort tabs by site",
+    "default_icon": "icons/icon-dark.svg",
+    "theme_icons": [
+      {
+        "light": "icons/icon-light.svg",
+        "dark": "icons/icon-dark.svg",
+        "size": 16
+      },
+      {
+        "light": "icons/icon-light.svg",
+        "dark": "icons/icon-dark.svg",
+        "size": 32
+      }
+    ]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+S"
+      },
+      "description": "Sort tabs by site"
+    },
+    "previous-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Comma",
+        "mac": "MacCtrl+Comma"
+      },
+      "description": "Switch to the previously focused tab"
+    }
+  }
+}
