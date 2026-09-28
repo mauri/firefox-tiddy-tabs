@@ -29,6 +29,7 @@
   },
   "browser_action": {
     "default_title": "Sort tabs by site",
+    "default_area": "navbar",
     "default_icon": "icons/icon-dark.svg",
     "theme_icons": [
       {
