@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    body {
+      font: message-box;
+      color: CanvasText;
+      background: Canvas;
+      margin: 0;
+      padding: 8px 0;
+    }
+    h2 {
+      font-size: 1.1em;
+      margin: 0 0 8px;
+    }
+    table {
+      border-collapse: collapse;
+      margin-bottom: 12px;
+    }
+    td {
+      padding: 4px 16px 4px 0;
+    }
+    kbd {
+      font: inherit;
+      border: 1px solid GrayText;
+      border-radius: 4px;
+      padding: 1px 6px;
+    }
+    .unset {
+      color: GrayText;
+    }
+  </style>
+</head>
+<body>
+  <h2>Keyboard shortcuts</h2>
+  <table>
+    <tbody id="shortcuts"></tbody>
+  </table>
+  <button id="change" type="button">Change shortcuts</button>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Tab Tidy",
   "version": "1.0.0",
-  "description": "Sort tabs by site, keep playing tabs at the top, and jump back to the previous tab.",
+  "description": "Sort tabs by site (Alt+Shift+S), keep playing tabs at the top, and jump back to the previous tab (Ctrl+Comma).",
   "browser_specific_settings": {
     "gecko": {
       "id": "tab-tidy@local",
@@ -26,6 +26,10 @@
       "background.js"
     ],
     "persistent": true
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "browser_action": {
     "default_title": "Sort tabs by site",

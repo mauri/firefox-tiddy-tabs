@@ -58,3 +58,5 @@ Firefox Developer Edition and Firefox Nightly can install unsigned extensions. F
 1. Open `about:addons`.
 2. Click the gear icon and select "Manage Extension Shortcuts".
 3. Find Tab Tidy and type the new key combination.
+
+The Preferences tab of Tab Tidy in `about:addons` shows the current shortcuts. Its "Change shortcuts" button opens the same shortcut settings.
