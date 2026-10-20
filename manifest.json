@@ -5,7 +5,7 @@
   "description": "Sort tabs by site (Alt+Shift+S), keep playing tabs at the top, and jump back to the previous tab (Ctrl+Comma).",
   "browser_specific_settings": {
     "gecko": {
-      "id": "tab-tidy@local",
+      "id": "firefox-tiddy-tabs@local",
       "strict_min_version": "142.0",
       "data_collection_permissions": {
         "required": [
